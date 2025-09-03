@@ -1,4 +1,3 @@
-import React from 'react'
 import { CiDesktopMouse2 } from 'react-icons/ci'
 
 export default function MouseScroll() {

@@ -4,7 +4,7 @@ import { AiOutlineDesktop } from "react-icons/ai";
 import { LuSmartphone } from "react-icons/lu";
 import SkillCard from './SkillCard';
 import { FaJs, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiTypescript, SiRedux } from "react-icons/si";
+import { SiMongodb, SiTypescript } from "react-icons/si";
 
 const skills = [
   { name: "JavaScript", icon: FaJs, color: "bg-yellow-400", text: "text-yellow-400" },

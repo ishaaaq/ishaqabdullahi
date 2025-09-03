@@ -19,7 +19,7 @@ export default function Sidebar() {
 
   return (
     <nav className=" hidden fixed top-1/2 left-4 -translate-y-1/2 bg-bg2 border border-white rounded-full py-2 px-2 md:flex flex-col items-center gap-[.5rem] z-50">
-      {navItems.map(({ href, icon: Icon }, idx) => (
+      {navItems.map(({ href, icon: Icon }) => (
         <a
           key={href}
           href={href}
